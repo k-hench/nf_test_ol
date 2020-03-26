@@ -19,9 +19,8 @@ process first_process {
 	"""
 }
 
-process subset_vcf_hamlets_only {
+process second_process {
 	label "L_2g5m_second_process"
-	//label "L_loc_second_process"
 	publishDir "result/", mode: 'copy'
 
 	input:
